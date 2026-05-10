@@ -483,10 +483,4 @@ GenAI / ML Engineer
 
 ---
 
-## License
-
-MIT License — free to use, modify, and distribute with attribution.
-
----
-
 *Built as a portfolio project demonstrating production-grade AI engineering with FastAPI, LangChain, RAG, React, and AWS.*
