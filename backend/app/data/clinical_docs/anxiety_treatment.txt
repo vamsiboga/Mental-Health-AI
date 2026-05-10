@@ -1,0 +1,54 @@
+EVIDENCE-BASED ANXIETY DISORDER TREATMENT GUIDELINES
+
+COGNITIVE BEHAVIORAL THERAPY FOR ANXIETY DISORDERS
+
+Core CBT Components:
+1. Psychoeducation: Teaching the patient about the nature of anxiety and its biological function
+2. Cognitive Restructuring: Identifying and challenging anxious thoughts and catastrophic predictions
+3. Behavioral Experiments: Testing anxious predictions in real situations to gather evidence
+4. Exposure Therapy: Graduated systematic exposure to feared stimuli and avoided situations
+5. Relapse Prevention: Skills maintenance and early warning sign identification and response
+
+EXPOSURE THERAPY PROTOCOL
+Develop a fear hierarchy collaboratively with the patient from least to most feared situations.
+Patient rates each situation on the SUDS scale from 0 (no anxiety) to 100 (maximum anxiety).
+Begin exposure exercises at approximately 30 to 40 on the SUDS scale for initial success.
+Remain in each situation until anxiety reduces by at least 50 percent through habituation.
+New safety learning competes with and gradually overcomes the original fear memory.
+Never end an exposure exercise while anxiety is still escalating.
+
+MINDFULNESS-BASED STRESS REDUCTION (MBSR)
+8-week structured group program developed by Jon Kabat-Zinn.
+Core practices: body scan meditation, sitting meditation, mindful movement and yoga.
+Evidence shows MBSR reduces GAD-7 scores by an average of 3 to 4 points.
+Particularly effective for chronic worry and generalized anxiety presentations.
+
+MINDFULNESS-BASED COGNITIVE THERAPY (MBCT)
+Integrates mindfulness meditation practices with cognitive therapy techniques.
+Particularly effective for anxiety that occurs alongside comorbid depression.
+Significantly reduces relapse rates for both anxiety and depression when practiced regularly.
+
+ACCEPTANCE AND COMMITMENT THERAPY (ACT)
+Core therapeutic goal is psychological flexibility rather than anxiety elimination.
+Teaches acceptance of anxious thoughts and feelings rather than fighting against them.
+Values-based committed action despite the presence of anxiety.
+Cognitive defusion techniques to create distance from anxious thoughts.
+
+PANIC DISORDER SPECIFIC INTERVENTIONS
+Interoceptive exposure: Deliberately inducing feared physical sensations to reduce fear of sensations.
+Breathing retraining: Diaphragmatic breathing to address hyperventilation patterns.
+Safety behavior elimination: Gradually removing crutches and safety behaviors that maintain panic.
+Psychoeducation about the panic cycle and the role of catastrophic misinterpretation.
+
+SOCIAL ANXIETY SPECIFIC INTERVENTIONS
+Social skills training when actual deficits in social skills are present.
+Video feedback to correct distorted negative self-perception during social situations.
+Attention training away from self-focused attention toward the external environment.
+Behavioral experiments to test predictions about negative evaluation by others.
+
+PHARMACOTHERAPY FOR ANXIETY
+First-line medications: SSRIs and SNRIs require 4 to 6 week trial before assessing full response
+Adjunctive options: Buspirone specifically for generalized anxiety disorder
+Short-term acute management: Low-dose benzodiazepines for brief periods only
+Performance anxiety: Beta-blockers for situational use only not for ongoing treatment
+All medication decisions require consultation with prescribing physician

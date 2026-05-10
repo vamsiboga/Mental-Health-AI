@@ -1,0 +1,53 @@
+PHQ-9 PATIENT HEALTH QUESTIONNAIRE - CLINICAL GUIDE
+
+OVERVIEW
+The PHQ-9 is a validated 9-item depression screening tool used in clinical practice.
+Each item is scored 0 (Not at all) to 3 (Nearly every day). Maximum score is 27.
+It is used to screen for depression, monitor severity, and track treatment response.
+
+THE 9 QUESTIONS
+1. Little interest or pleasure in doing things
+2. Feeling down, depressed, or hopeless
+3. Trouble falling or staying asleep, or sleeping too much
+4. Feeling tired or having little energy
+5. Poor appetite or overeating
+6. Feeling bad about yourself or that you are a failure
+7. Trouble concentrating on things
+8. Moving or speaking so slowly or being fidgety or restless
+9. Thoughts that you would be better off dead or of hurting yourself
+
+SCORING INTERPRETATION
+Score 0-4: Minimal depression. Monitor patient, repeat PHQ-9 as clinically indicated. No treatment required unless patient reports significant distress.
+Score 5-9: Mild depression. Watchful waiting, repeat PHQ-9 at follow-up in 2-4 weeks. Consider counseling and psychoeducation.
+Score 10-14: Moderate depression. Create a treatment plan, consider counseling and pharmacotherapy evaluation. Repeat in 2 weeks.
+Score 15-19: Moderately severe depression. Active treatment with pharmacotherapy and psychotherapy is recommended. Repeat in 1 week.
+Score 20-27: Severe depression. Immediate initiation of pharmacotherapy and expedited referral to mental health specialist. Consider hospitalization if safety is a concern.
+
+ITEM 9 - SUICIDE RISK PROTOCOL
+Item 9 asks about thoughts of death or self-harm. Any response above 0 on Item 9 requires:
+1. Immediate clinical assessment of suicide risk using Columbia Protocol
+2. Documentation of safety planning conversation
+3. Consideration of crisis intervention services
+4. Possible emergency referral if risk is imminent
+5. Notify supervisor or senior clinician immediately
+6. Do not leave patient alone if risk is high
+
+CLINICALLY SIGNIFICANT IMPROVEMENT
+A reduction of 5 points from baseline is considered clinically significant improvement.
+Full remission is defined as a PHQ-9 score below 5.
+Treatment response is defined as 50% or greater reduction from baseline score.
+
+FOLLOW-UP TIMING BY SEVERITY
+Minimal (0-4): Repeat in 6 months
+Mild (5-9): Repeat in 2-4 weeks
+Moderate (10-14): Repeat in 2 weeks
+Moderately Severe (15-19): Repeat in 1 week
+Severe (20-27): Immediate follow-up, daily monitoring recommended
+
+TREATMENT ESCALATION TRIGGERS
+- PHQ-9 score increases by 5 or more points from baseline
+- Any positive response to Item 9 (suicide risk item)
+- Patient reports inability to function at work, home, or social settings
+- Patient expresses hopelessness or helplessness consistently
+- No improvement after 4-6 weeks of current treatment
+- Patient requests more intensive treatment

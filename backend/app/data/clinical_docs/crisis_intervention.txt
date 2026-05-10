@@ -1,0 +1,55 @@
+MENTAL HEALTH CRISIS INTERVENTION PROTOCOLS
+
+DEFINITION OF MENTAL HEALTH CRISIS
+A mental health crisis is any situation in which a person behavior puts them at risk of hurting
+themselves or others, or prevents them from being able to care for themselves or function safely.
+
+COLUMBIA SUICIDE SEVERITY RATING SCALE - C-SSRS
+The C-SSRS assesses five key components:
+1. IDEATION: Is the patient thinking about suicide? Passive wish to be dead vs active suicidal ideation
+2. PLAN: Does the patient have a specific plan for how they would do it?
+3. MEANS: Does the patient have access to the means such as firearms or medications?
+4. INTENT: Does the patient intend to act on their plan in the near future?
+5. BEHAVIOR: Has the patient engaged in any preparatory behavior or made past attempts?
+
+RISK STRATIFICATION
+Low Risk: Passive ideation only, no specific plan, no intent to act, no means access, strong protective factors present
+Moderate Risk: Active suicidal ideation present, vague or general plan, some intent, protective factors still present
+High Risk: Active ideation with specific plan, access to means, low protective factors, history of past attempts
+Imminent Risk: Stated intent to act immediately, has means readily available, no protective factors, requires emergency intervention
+
+IMMEDIATE CLINICAL ACTIONS BY RISK LEVEL
+Low Risk: Create safety plan, provide crisis hotline numbers, increase appointment frequency, remove means if possible
+Moderate Risk: Detailed safety plan, contact emergency support person, daily check-in calls, consider voluntary hospitalization
+High Risk: Strongly recommend voluntary hospitalization, contact emergency services if patient refuses, do not leave alone
+Imminent Risk: Call 911 immediately, do not leave patient alone under any circumstances, activate emergency protocol
+
+SAFETY PLANNING - SIX COMPONENTS
+1. Warning signs that a crisis may be developing for this patient
+2. Internal coping strategies the patient can use alone
+3. Social contacts who can provide distraction and support
+4. People the patient can ask for help when crisis escalates
+5. Professionals and agencies to contact in a crisis situation
+6. Steps to make the home environment safe by removing means
+
+CRISIS RESOURCES - PROVIDE THESE TO EVERY AT-RISK PATIENT
+988 Suicide and Crisis Lifeline: Call or text 988 - available 24 hours 7 days a week
+Crisis Text Line: Text HOME to 741741 - free confidential text support
+SAMHSA National Helpline: 1-800-662-4357 - free confidential 24 hour service
+International Association for Suicide Prevention: https://www.iasp.info/resources/Crisis_Centres/
+Emergency Services: Call 911 if there is immediate danger to life
+
+DOCUMENTATION REQUIREMENTS
+Document all risk assessments with clinical rationale for risk level determination
+Document safety plan creation and patient verbal agreement to the plan
+Document notifications made to emergency contacts when clinically appropriate
+Document all crisis interventions with timestamps and actions taken
+Document follow-up plan and next appointment scheduled
+
+DE-ESCALATION TECHNIQUES
+Speak calmly and at a slow measured pace to model regulation
+Validate the patient feelings without reinforcing crisis behavior patterns
+Remove or reduce immediate environmental stressors when possible
+Involve trusted support persons with patient explicit consent
+Offer immediate concrete options rather than overwhelming long-term plans
+Use open-ended questions to understand the patient experience

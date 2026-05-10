@@ -1,0 +1,36 @@
+# Python
+backend/venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+.pytest_cache/
+
+# Environment variables - never commit these
+backend/.env
+*.env.local
+
+# Database files
+backend/*.db
+
+# FAISS index - generated automatically
+backend/app/data/faiss_index/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+
+# Docker
+.dockerignore

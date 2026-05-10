@@ -1,0 +1,50 @@
+GAD-7 GENERALIZED ANXIETY DISORDER SCALE - CLINICAL GUIDE
+
+OVERVIEW
+The GAD-7 is a validated 7-item anxiety screening tool used in clinical practice.
+Each item is scored 0 (Not at all) to 3 (Nearly every day). Maximum score is 21.
+Validated for generalized anxiety disorder and also detects panic disorder and social anxiety.
+
+THE 7 QUESTIONS
+1. Feeling nervous, anxious, or on edge
+2. Not being able to stop or control worrying
+3. Worrying too much about different things
+4. Trouble relaxing
+5. Being so restless that it is hard to sit still
+6. Becoming easily annoyed or irritable
+7. Feeling afraid as if something awful might happen
+
+SCORING INTERPRETATION
+Score 0-4: Minimal anxiety. No clinical action required unless patient reports significant distress.
+Score 5-9: Mild anxiety. Monitor symptoms. Psychoeducation and lifestyle modifications recommended.
+Score 10-14: Moderate anxiety. Consider CBT referral. Evaluate need for medication consultation.
+Score 15-21: Severe anxiety. Active treatment indicated. Referral to mental health specialist recommended immediately.
+
+CLINICAL CONSIDERATIONS
+- GAD-7 screens for generalized anxiety but may also detect panic disorder, social anxiety, and PTSD
+- High scores on items 1 and 2 suggest generalized anxiety pattern
+- High scores on item 5 may indicate panic disorder when very elevated
+- Comorbid depression is extremely common - always administer PHQ-9 alongside GAD-7
+- Consider trauma history screening if scores are persistently high
+
+TREATMENT GUIDELINES BY SEVERITY
+Mild (5-9): Psychoeducation about anxiety, relaxation techniques, sleep hygiene, regular exercise
+Moderate (10-14): CBT referral, consider SSRI or SNRI evaluation, structured problem-solving therapy
+Severe (15-21): Immediate mental health referral, pharmacotherapy evaluation, consider intensive outpatient
+
+CBT APPROACHES FOR ANXIETY
+Cognitive Restructuring: Identifying and challenging anxious thoughts and catastrophic thinking
+Exposure Therapy: Graduated systematic exposure to feared situations using SUDS scale 0-100
+Relaxation Training: Progressive muscle relaxation and diaphragmatic breathing techniques
+Mindfulness-Based Cognitive Therapy: Integration of mindfulness with cognitive restructuring
+
+MEDICATION CONSIDERATIONS
+First-line medications: SSRIs such as sertraline and escitalopram, SNRIs such as venlafaxine
+Second-line options: Buspirone for generalized anxiety, TCAs for refractory cases
+Acute management: Low-dose benzodiazepines for short-term only due to dependence risk
+Note: Always consult prescribing physician for all medication decisions
+
+TREATMENT RESPONSE MONITORING
+Treatment response: 50% or greater reduction in GAD-7 score from baseline
+Full remission: GAD-7 score below 5
+Repeat GAD-7 at every clinical appointment to track progress

@@ -1,0 +1,53 @@
+EVIDENCE-BASED DEPRESSION TREATMENT GUIDELINES
+
+FIRST-LINE PSYCHOTHERAPY TREATMENTS
+
+Cognitive Behavioral Therapy (CBT):
+CBT is the gold standard psychotherapy for major depressive disorder.
+Typically delivered in 12 to 20 weekly sessions with a trained therapist.
+Core focus: identifying negative automatic thoughts, behavioral activation, and cognitive restructuring.
+The cognitive triangle connects thoughts, feelings, and behaviors in a cycle.
+Evidence shows CBT is equivalent to medication for mild to moderate depression.
+CBT skills can be practiced independently to prevent relapse after treatment ends.
+
+Interpersonal Therapy (IPT):
+IPT focuses on interpersonal role disputes, grief, role transitions, and interpersonal deficits.
+Delivered in 12 to 16 weekly sessions with a trained IPT therapist.
+Particularly effective for depression related to relationship difficulties or major life changes.
+Addresses how interpersonal problems contribute to and maintain depressive symptoms.
+
+Behavioral Activation:
+Targets avoidance and withdrawal behaviors that are common in depression.
+Uses structured scheduling to increase engagement with rewarding and meaningful activities.
+Activity monitoring and scheduling are core components of behavioral activation.
+Can be effectively delivered by non-specialist clinicians with proper training.
+
+PHARMACOTHERAPY GUIDELINES
+First-line medications: SSRIs including fluoxetine, sertraline, escitalopram, paroxetine, citalopram
+Onset of action: Initial response typically seen at 2 to 4 weeks after starting medication
+Full therapeutic benefit: Usually achieved at 4 to 8 weeks of consistent treatment
+Minimum treatment duration: 6 to 12 months for a first depressive episode
+Always consult with prescribing physician for all medication decisions and adjustments
+
+COMBINED TREATMENT
+CBT combined with antidepressant medication is superior to either treatment alone for moderate to severe depression.
+Combined treatment significantly reduces relapse rates compared to medication alone.
+Strongly recommended for recurrent depression or chronic depressive presentations.
+
+LIFESTYLE INTERVENTIONS WITH EVIDENCE
+Exercise: 30 to 45 minutes of aerobic exercise 3 to 5 times per week shown to reduce PHQ-9 scores by 2 to 4 points
+Sleep hygiene: Consistent wake times every day, limit caffeine after noon, avoid screens before bed
+Nutrition: Mediterranean diet associated with significantly lower depression risk in research studies
+Social support: Encourage active maintenance of social connections even when patient prefers isolation
+
+TREATMENT MONITORING SCHEDULE
+Administer PHQ-9 at every clinical appointment to objectively track treatment response
+Assess medication side effects at 1 to 2 weeks after any medication initiation or change
+Evaluate treatment response formally at 4 to 6 weeks and escalate if less than 50% improvement
+Consider referral to psychiatrist if two or more adequate medication trials have failed
+
+RELAPSE PREVENTION
+Continue antidepressant medications for 6 to 12 months after achieving full remission
+For recurrent depression with 3 or more episodes consider indefinite maintenance treatment
+Continuation of CBT skills practice independently reduces relapse risk by approximately 50%
+Schedule regular booster sessions every 3 months after completing acute phase treatment
