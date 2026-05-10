@@ -1,0 +1,57 @@
+{
+  "family": "mental-health-ai-backend",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "backend",
+      "image": "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/mental-health-ai-backend:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        { "name": "ENVIRONMENT", "value": "production" },
+        { "name": "DATABASE_URL", "value": "sqlite:///./mental_health.db" },
+        { "name": "APP_NAME", "value": "Mental Health AI Assistant" },
+        { "name": "APP_VERSION", "value": "1.0.0" },
+        { "name": "FAISS_INDEX_PATH", "value": "./app/data/faiss_index" },
+        { "name": "DOCUMENTS_PATH", "value": "./app/data/clinical_docs" },
+        { "name": "MAX_TOKENS", "value": "1000" },
+        { "name": "TEMPERATURE", "value": "0.1" },
+        { "name": "MODEL_NAME", "value": "gpt-4o" },
+        { "name": "EMBEDDING_MODEL", "value": "text-embedding-3-small" },
+        { "name": "TOP_K_RESULTS", "value": "5" },
+        { "name": "CRISIS_KEYWORDS", "value": "suicide,self-harm,kill myself,end my life,hurt myself,overdose,not worth living" }
+      ],
+      "secrets": [
+        {
+          "name": "OPENAI_API_KEY",
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:ACCOUNT_ID:secret:mental-health-ai/openai-api-key"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/mental-health-ai",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "backend"
+        }
+      },
+      "healthCheck": {
+        "command": ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"],
+        "interval": 30,
+        "timeout": 5,
+        "retries": 3,
+        "startPeriod": 10
+      }
+    }
+  ]
+}

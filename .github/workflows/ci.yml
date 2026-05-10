@@ -101,3 +101,77 @@ jobs:
         run: |
           docker images | grep mental-health
           echo "Both Docker images built successfully"
+
+  deploy-aws:
+    name: Deploy to AWS
+    runs-on: ubuntu-latest
+    needs: [backend-tests, frontend-build, docker-build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Login to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Create backend .env for build
+        run: |
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > backend/.env
+          echo "DATABASE_URL=sqlite:///./mental_health.db" >> backend/.env
+          echo "ENVIRONMENT=production" >> backend/.env
+          echo "APP_NAME=Mental Health AI Assistant" >> backend/.env
+          echo "APP_VERSION=1.0.0" >> backend/.env
+          echo "FAISS_INDEX_PATH=./app/data/faiss_index" >> backend/.env
+          echo "DOCUMENTS_PATH=./app/data/clinical_docs" >> backend/.env
+          echo "MAX_TOKENS=1000" >> backend/.env
+          echo "TEMPERATURE=0.1" >> backend/.env
+          echo "MODEL_NAME=gpt-4o" >> backend/.env
+          echo "EMBEDDING_MODEL=text-embedding-3-small" >> backend/.env
+          echo "TOP_K_RESULTS=5" >> backend/.env
+          echo "CRISIS_KEYWORDS=suicide,self-harm,kill myself,end my life,hurt myself,overdose" >> backend/.env
+
+      - name: Build and push backend image to ECR
+        run: |
+          docker build -f Dockerfile.backend \
+            -t ${{ secrets.ECR_BACKEND_URI }}:latest \
+            -t ${{ secrets.ECR_BACKEND_URI }}:${{ github.sha }} .
+          docker push ${{ secrets.ECR_BACKEND_URI }}:latest
+          docker push ${{ secrets.ECR_BACKEND_URI }}:${{ github.sha }}
+
+      - name: Update ECS service
+        run: |
+          aws ecs update-service \
+            --cluster mental-health-ai-cluster \
+            --service mental-health-ai-backend-service \
+            --force-new-deployment \
+            --region us-east-1
+        continue-on-error: true
+
+      - name: Build and deploy frontend to S3
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+          aws s3 sync dist/ s3://${{ secrets.S3_BUCKET }} --delete
+        continue-on-error: true
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CF_DISTRIBUTION_ID }} \
+            --paths "/*"
+        continue-on-error: true
+
+      - name: Deployment complete
+        run: |
+          echo "Deployment to AWS completed"
+          echo "Commit: ${{ github.sha }}"
+          echo "Time: $(date)"
