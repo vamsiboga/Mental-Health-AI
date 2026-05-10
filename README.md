@@ -31,9 +31,9 @@
 
 ## Overview
 
-The Mental Health AI Assistant is a full-stack, production-ready clinical decision support platform built for mental health professionals. It combines Retrieval-Augmented Generation (RAG) with OpenAI GPT-4o to deliver accurate, document-grounded responses to clinical questions — with every answer citing its source.
+The Mental Health AI Assistant is a full-stack, production-ready clinical decision support platform built for mental health professionals. It combines Retrieval-Augmented Generation (RAG) with OpenAI GPT-4o to deliver accurate, document-grounded responses to clinical questions with every answer citing its source.
 
-Clinicians can create patient records, administer PHQ-9 and GAD-7 assessments, chat with an AI assistant that understands the patient's full context, and monitor risk trends over time — all in one unified interface.
+Clinicians can create patient records, administer PHQ-9 and GAD-7 assessments, chat with an AI assistant that understands the patient's full context, and monitor risk trends over time all in one unified interface.
 
 ---
 
