@@ -379,7 +379,7 @@ tests/test_crisis_detector.py::test_no_crisis_returns_empty_resources PASSED
 - AWS CLI installed and configured: `aws configure`
 - Docker Desktop running
 
-### Step 1 — Run the setup script
+### Step 1: Run the setup script
 
 ```bash
 bash aws-deploy/setup-aws.sh
@@ -387,29 +387,29 @@ bash aws-deploy/setup-aws.sh
 
 This creates: ECR repositories, S3 bucket, Secrets Manager secret, CloudWatch log group, ECS cluster.
 
-### Step 2 — Create ECS IAM role
+### Step 2: Create ECS IAM role
 
 Follow the steps in `aws-deploy/aws-console-steps.md`
 
-### Step 3 — Deploy backend
+### Step 3: Deploy backend
 
 ```bash
 bash aws-deploy/deploy-backend.sh
 ```
 
-### Step 4 — Deploy frontend
+### Step 4: Deploy frontend
 
 ```bash
 bash aws-deploy/deploy-frontend.sh https://your-backend-url
 ```
 
-### Step 5 — Set up CloudFront
+### Step 5: Set up CloudFront
 
 ```bash
 bash aws-deploy/setup-cloudfront.sh
 ```
 
-### Step 6 — Add GitHub secrets for auto-deploy
+### Step 6: Add GitHub secrets for auto-deploy
 
 See `aws-deploy/github-secrets-needed.md` for the complete list.
 
