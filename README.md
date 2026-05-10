@@ -450,10 +450,10 @@ push to main
 
 If you or someone you know is in crisis:
 
-- **988 Suicide and Crisis Lifeline** — Call or text **988** (available 24/7)
-- **Crisis Text Line** — Text **HOME** to **741741**
-- **SAMHSA National Helpline** — **1-800-662-4357** (free, confidential, 24/7)
-- **Emergency Services** — Call **911** if there is immediate danger
+- **988 Suicide and Crisis Lifeline** Call or text **988** (available 24/7)
+- **Crisis Text Line** Text **HOME** to **741741**
+- **SAMHSA National Helpline** **1-800-662-4357** (free, confidential, 24/7)
+- **Emergency Services** Call **911** if there is immediate danger
 
 ---
 
